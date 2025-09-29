@@ -1,10 +1,20 @@
 # weather-app
+[![smithery badge](https://smithery.ai/badge/ayrton3413/weather-app)](https://smithery.ai/server/ayrton3413/weather-app)
 
 An MCP server built with [Smithery CLI](https://smithery.ai/docs/getting_started/quickstart_build_python)
 
 ## Prerequisites
 
 - **Smithery API key**: Get yours at [smithery.ai/account/api-keys](https://smithery.ai/account/api-keys)
+
+
+## Installing via Smithery
+
+To install weather-app automatically via [Smithery](https://smithery.ai/server/ayrton3413/weather-app):
+
+```bash
+npx -y @smithery/cli install @ayrton3413/weather-app
+```
 
 ## Getting Started
 
