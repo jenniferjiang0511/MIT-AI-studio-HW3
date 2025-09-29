@@ -99,7 +99,7 @@ def create_server():
             },
         ]
 
-    @mcp.tool()
+    @server.tool()
     async def get_alerts(state: str) -> str:
         """Get weather alerts for a US state (e.g. 'CA', 'NY')."""
         url = f"{NWS_API_BASE}/alerts/active/area/{state}"
@@ -111,7 +111,7 @@ def create_server():
         alerts = [format_alert(f) for f in data["features"]]
         return "\n\n---\n\n".join(alerts)
 
-    @mcp.tool()
+    @server.tool()
     async def get_forecast(latitude: float, longitude: float) -> str:
         """Get weather forecast for a location."""
         points_url = f"{NWS_API_BASE}/points/{latitude},{longitude}"
