@@ -2,11 +2,18 @@
 
 An MCP server built with [Smithery CLI](https://smithery.ai/docs/getting_started/quickstart_build_python)
 
+
+# Functions of the tools that are being connected
+This weather app has two functions: get alert and get forecast. Get alert gets any weather alert within the U.S. state, and get forecast gets the weather forecast for that location.
+
+To make things more interesting, if you ask the it to speak in a pirate like tone, it can answer your requests with such a tone.
+
+
 ## Prerequisites
 
 - **Smithery API key**: Get yours at [smithery.ai/account/api-keys](https://smithery.ai/account/api-keys)
 
-## Getting Started
+## Getting Started with running the server
 
 1. Run the server:
    ```bash
@@ -21,11 +28,11 @@ An MCP server built with [Smithery CLI](https://smithery.ai/docs/getting_started
 
 Try saying "Say hello to John" to test the example tool.
 
-## Development
+## Development of the server
 
 Your server code is in `src/hello_server/server.py`. Add or update your server capabilities there.
 
-## Deploy
+## Deploying the server
 
 Ready to deploy? Push your code to GitHub and deploy to Smithery:
 
